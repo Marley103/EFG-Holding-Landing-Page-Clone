@@ -29,3 +29,21 @@ li {
     font-size: 1.2rem;
     justify-content: space-around;
 }
+
+.home {
+    text-align: center;
+    background-image: url(Images/EFG_Holding_Corporate_Ad_Web_1_3be5d53b67.webp);
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    padding: 190px;
+    color: white;
+}
+
+.btn {
+    border: 2px white solid;
+    padding: 15px;
+    margin: 15px;
+    color: rgb(1, 87, 1);
+    font-weight: 400;
+}
