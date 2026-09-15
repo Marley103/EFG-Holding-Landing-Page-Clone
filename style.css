@@ -123,3 +123,18 @@ a {
     padding: 60px;
     width: 30%;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h2footer {
+    color: rgb(5, 80, 61);
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
