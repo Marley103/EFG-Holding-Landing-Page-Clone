@@ -1,15 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 ul,
 li {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .header {
     background-color: rgb(5, 80, 61);
     display: flex;
     justify-content: space-between;
-    padding-inline: 2rem;
+    padding: 2rem;
     color: white;
     position: sticky;
     top: 0px;
@@ -30,14 +34,92 @@ li {
     background-image: url(Images/EFG_Holding_Corporate_Ad_Web_1_3be5d53b67.webp);
     background-size: cover;
     background-position: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 130px;
+    /* height: 100vh; */
+    padding: 190px;
     color: white;
 }
 
 .btn {
     border: 2px white solid;
     padding: 15px;
+    margin: 15px;
     color: rgb(1, 87, 1);
     font-weight: 400;
+}
+
+.sec0 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    padding-left: 10px;
+}
+
+.h2vid {
+    color: rgb(5, 80, 61);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article {
+    width: 40%;
+}
+
+.btn {
+    border: 1px solid #e5e7eb;
+    padding: 15px;
+    color: rgb(1, 87, 1);
+    font-weight: 400;
+}
+
+.sec1 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 70px;
+    gap: 1rem;
+}
+
+.clicked {
+    padding: 10px;
+    font-weight: 600;
+    /* flex : (grow, shrink, basis) */
+    flex: 1 1 0;
+    align-content: center;
+    color: rgb(17 70 51);
+    border: 1px solid #e5e7eb;
+}
+
+a {
+    color: rgb(2, 73, 73);
+}
+
+.sec2 {
+    display: flex;
+    gap: 1rem;
+    padding-left: 60px;
+}
+
+.h2 {
+    padding-top: 20px;
+    color: rgb(5, 80, 61);
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+.box {
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+}
+
+.box h3 {
+    color: rgb(5, 80, 61);
+}
+
+.box:hover {
+    background-color: rgb(5, 80, 61);
+    color: white;
+}
+
+.sec3 {
+    padding: 60px;
+    width: 30%;
 }
