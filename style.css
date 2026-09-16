@@ -171,11 +171,31 @@ a {
     background-color: white;
 }
 
-.footer {
+.line {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-bottom: 1px #858686 solid;
 }
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+    padding: 15px;
+}
+
+/* .footer-text {
+    display: flex;
+    flex-direction: row;
+} */
 
 .h2footer {
     color: rgb(5, 80, 61);
