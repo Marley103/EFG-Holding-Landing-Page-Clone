@@ -9,23 +9,31 @@ li {
 }
 
 .navbar {
-    height: 50vh;
-    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: hsl(158, 60%, 17%);
+    padding: 30px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.home {
+    height: 80vh;
     background-image: url(Images/Our_Services_header_EN_76b1d10968.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    padding: 40px 20px 20px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 .nav-list {
     display: flex;
     gap: 2rem;
     font-size: 18px;
-    padding-top: 0.6rem;
 }
 
 .sec1 {
@@ -47,6 +55,7 @@ li {
     font-size: 1rem;
     font-weight: 300;
     padding-left: 50px;
+    text-align: justify;
     width: 80%;
 }
 
@@ -81,6 +90,7 @@ li {
     font-weight: 300;
     font-size: 20px;
     line-height: 2rem;
+    text-align: justify;
     width: 90%;
     padding-left: 20px;
 }
@@ -124,6 +134,7 @@ li {
     font-weight: 300;
     font-size: 20px;
     line-height: 2rem;
+    text-align: justify;
     width: 90%;
     padding-left: 15px;
 }
@@ -171,6 +182,7 @@ li {
     font-weight: 300;
     font-size: 20px;
     line-height: 2rem;
+    text-align: justify;
     width: 90%;
     padding-left: 15px;
 }
