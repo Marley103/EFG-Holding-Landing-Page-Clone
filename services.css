@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.navbar {
+    height: 50vh;
+    padding-top: 0px;
+    background-image: url(Images/Our_Services_header_EN_76b1d10968.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 40px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    padding-top: 0.6rem;
+}
+
+.sec1 {
+    margin: 30px;
+}
+
+.sec1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(158, 60%, 17%);
+    font-size: 1.3rem;
+    margin-top: 30px;
+    padding: 30px 40px 10px 50px;
+}
+
+.sec1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 29px;
+    color: rgb(20, 20, 20);
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 50px;
+    width: 80%;
+}
+
+.sec2 {
+    display: flex;
+    margin: 80px 0px 80px 0;
+}
+
+.img2 {
+    padding-left: 75px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.essay2 {
+    padding: 0 30px;
+    width: 100%;
+}
+
+.invest {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18 71 52);
+    font-weight: 600;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 0 0 15px 20px;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55 65 81);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2rem;
+    width: 90%;
+    padding-left: 20px;
+}
+
+.btn2 {
+    color: rgb(18 71 52);
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 19px;
+    border: 1px #e5e7eb solid;
+}
+
+.btn2:hover {
+    background-color: rgb(18 71 52);
+    color: white;
+}
+
+.sec3 {
+    display: flex;
+    margin: 40px;
+}
+
+.essay3 {
+    width: 100%;
+    margin: 35px;
+}
+
+.NBFI {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18 71 52);
+    font-weight: 600;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 0 0 15px 15px;
+}
+
+.p3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55 65 81);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2rem;
+    width: 90%;
+    padding-left: 15px;
+}
+
+.btn3 {
+    color: rgb(18 71 52);
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 1px #e5e7eb solid;
+}
+
+.btn3:hover {
+    background-color: rgb(18 71 52);
+    color: white;
+}
+
+.sec4 {
+    display: flex;
+    margin: 80px 30px 80px 30px;
+}
+
+.img4 {
+    padding: 0px 50px 0px 40px;
+}
+
+.essay4 {
+    width: 100%;
+    margin: 30px 10px 30px 70px;
+}
+
+.bank {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18 71 52);
+    font-weight: 600;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 0 0 15px 15px;
+}
+
+.p4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(55 65 81);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 2rem;
+    width: 90%;
+    padding-left: 15px;
+}
+
+.btn4 {
+    color: rgb(18 71 52);
+    background-color: white;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: 1px #e5e7eb solid;
+}
+
+.btn4:hover {
+    background-color: rgb(18 71 52);
+    color: white;
+}
+
+.sec5 {
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+    border-bottom: 1px #858686 solid;
+    margin: 0px 120px 0 120px;
+    padding: 20px 0 20px 0;
+}
+
+.img5 {
+    padding-right: 40px;
+}
+
+.sec5 ul {
+    display: flex;
+    gap: 2rem;
+    color: #858686;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 30px 0;
+    gap: 10rem;
+}
+
+.footer-text {
+    display: flex;
+    gap: 2rem;
+    color: #858686;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 55px;
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+    color: #858686;
+    padding-left: 55px;
+}
