@@ -257,8 +257,8 @@ a {
     position: relative;
 }
 
-.btn2::after {
-    /* content: "\2192"; */
+/* .btn2::after {
+     content: "\2192"; 
     content: " ";
     display: inline-block;
     width: 0px;
@@ -271,9 +271,9 @@ a {
     right: -5px;
     top: 50%;
     transform: translateY(-50%);
-}
+ } */
 
-.btn2::before {
+/* .btn2::before {
     content: "";
     width: 15px;
     height: 2px;
@@ -284,7 +284,7 @@ a {
     right: 1px;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 
 .btn2:hover {
     background-color: rgb(5, 80, 61);
